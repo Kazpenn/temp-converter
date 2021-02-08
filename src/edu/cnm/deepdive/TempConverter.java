@@ -1,5 +1,9 @@
 package edu.cnm.deepdive;
 
+/**
+ * Simple class to demonstrate reading properties and iterating 
+ * over arguments.
+ */
 public class TempConverter{
 	
 	public static void main(String[] args) {
@@ -19,6 +23,12 @@ public class TempConverter{
 		
 	}
 	
+	/**
+	 * Converts tempF (Fahrenheit tempature) to a Celsius value.
+	 *
+	 * @param tempF Tempature in Fahrenheit degrees.
+	 * @return Tempature in Celsius degrees.
+	 */
 	public static float convertFToC(float tempF) {
 	    float tempC = (tempF - 32) * 5 / 9;
         return tempC;		
